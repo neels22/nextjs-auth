@@ -57,10 +57,10 @@ export default function Signuppage()
             
         } catch (error:any) {
             
-            console.log("signup failed",error.message);
+            console.log("signup failed dunno why",error.message);
 
              
-            toast.error(error.message)
+            // toast.error(error.message)
 
 
         }finally{
